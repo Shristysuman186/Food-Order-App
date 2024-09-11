@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    color: #474747;
+    font-family: sans-serif;
+}
+.header-logo{
+    width: 140px;
+}
+.main_header{
+    justify-content: space-between;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(128, 128, 128, 0.5);
+    font-size: 18px;
+}
+.nav-items > ul{
+    display: flex;
+}
+.nav-items > ul > li{
+    padding: 0 0px 0px 50px;
+    list-style: none;
+}
+.main_body{
+    padding: 50px;
+}
+.rest-conatiner {
+    width: 250px;
+    margin: 40px 0;
+    padding: 0 40px;
+}
+.rest-card-style{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 380px;
+}
+.rest-conatiner > .rest-card-style > .rest-card-image > img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+.rest-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Shimmer-card{
+    margin: 40px 0;
+    padding: 0 40px;
+}
+.Shimmer-card > .card{
+    height: 380px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    margin: 30px 0;
+    background: linear-gradient(to right, #f6f7f8 0%, #e0e0e0 20%, #f6f7f8 40%, #f6f7f8 100%);
+    background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+.restaurant-info {
+    width: 60%;
+    margin: auto;
+}
+.rest-details{
+    margin: 50px 0px;
+    text-align: center;
+}
+.rest-details > h1{
+    color: #ec6400;
+}
+.rest-details > p {
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.menu-items > .category {
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+    padding: 20px 15px;
+    border-bottom: 1px solid lightgray;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu-list{
+    padding: 20px;
+}
+.menu-title, .menu-price {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.menu-desc {
+    padding-bottom: 30px;
+}
+a{color: black;
+    text-decoration: none;
+}
+.rest-card-details{
+    margin: 20px 10px;
+}
+.veg-cards{
+    position: relative;
+}
+.veg-label {
+    color: #ffffff;
+    background: #ec6400;
+    border-radius: 4px;
+    padding: 5px 35px;
+    position: absolute;
+    left: 40px;
+}
+.rest-card-style:hover{
+    /* box-shadow: 0px 0px 0px 1px rgb(183, 179, 179); */
+    background-color: #c5c6c7;
+}
+.filter{
+    display: flex;
+    justify-content: end;
+}
+.search {
+    padding-right: 50px;
+}
+.search > input {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+}
+.search > button{
+    padding: 6px 22px;
+    background: #ec6400;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.filter-btn{
+    background: #474747;
+    color: #ffffff;
+    padding: 0 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.footer-sec{
+    padding: 50px;
+    background: #474747;
+    color: #ffffff;
+    text-align: center;
+}
+.about-sec{
+    height: 70vh;
+    padding: 50px 50px 0px 50px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.card-trating {
+    padding: 5px 0px;
+}
+.card-time {
+    font-weight: 600;
+    font-size: 14px;
+}
+.card-cuisine {
+    font-size: 14px;
+    color: #474747;
+    padding: 10px 0;
+}
+.menu-cards{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    padding: 30px 0px;
+}
+.menu-image{
+    width: 170px;
+    padding-left: 50px;
+}
+.menu-cards > .item{
+    width: 80%;
+}
+.add-to-cart{
+    padding: 5px 10px;
+    color: #ffffff;
+    background: green;
+    border: navajowhite;
+    border-radius: 5px;
+    width: max-content;
+    cursor: pointer;
+}
+.cart{
+    width: 70%;
+    margin: auto;
+    padding: 60px;
+}
+button.clearcart-btn {
+    padding: 5px 20px;
+    background: #ec6400;
+    color: #ffffff;
+    border: navajowhite;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h1.cart-head {
+    text-align: center;
+    color: #ec6400;
+}
+.clearbtn-div {
+    padding: 20px;
+}
+.cart > h1{
+    text-align: center;
+}
