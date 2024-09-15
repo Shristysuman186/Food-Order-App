@@ -4,7 +4,8 @@ const Menu = ({items, showItem, accordianHandle}) => {
     
     return (
         <div className="menu-items">
-            <div className="category" onClick={accordianHandle}>{items.title} ({items.itemCards.length})</div>
+            <div className="category" onClick={accordianHandle}><div>{items.title} ({items.itemCards.length})</div><div>⌄</div></div>
+            
             {
                 showItem && <MenuItems menuitems={items.itemCards}/>
             }

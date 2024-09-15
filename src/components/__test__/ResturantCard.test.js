@@ -11,8 +11,12 @@ it("should render resturant card props data", () => {
 });
 
 //unit testing for HOC
-it("should render resturant card with mostPopLabel", () => {
+// it("should render resturant card with mostPopLabel", () => {
     
-    // const name = screen.getByText("MP Paratha and Omlet");
-    // expect(name).toBeInTheDocument();
-})
+//     const MostPopular = mostPopLabel(ResturantCard);
+//     render(
+//     <MostPopular resData={MOCK_DATA}/>
+//     );
+//     const name = screen.getByText("MP Paratha and Omlet");
+//     expect(name).toBeInTheDocument();
+// })

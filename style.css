@@ -94,6 +94,9 @@ body{
     font-weight: 600;
     font-size: 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .menu-list{
     padding: 20px;
@@ -224,4 +227,44 @@ h1.cart-head {
 }
 .cart > h1{
     text-align: center;
+}
+
+/* Media query */
+@media only screen and (max-width: 768px) {
+    .filter {
+        display: block;
+    }
+    .search {
+        display: flex;
+        padding-right: unset;
+    }
+    .filter-btn {
+        padding: 6px 30px;
+        margin-top: 10px;
+    }
+    .restaurant-info {
+        width: 100%;
+    }
+    .restaurant-info.rest-conatiner {
+        padding: unset;
+    }
+    .menu-cards > .item {
+        width: 100%;
+    }
+    .menu-cards {
+        display: inline-block;
+    }
+    .menu-image {
+        display: none;
+    }
+    .cart {
+        width: 100%;
+        padding: unset;
+    }
+    .menu-items > .category {
+        font-size: 16px;
+    }
+    .Shimmer-card{
+        padding: 0 20px;
+    }
 }
