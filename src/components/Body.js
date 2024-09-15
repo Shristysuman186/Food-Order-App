@@ -38,7 +38,7 @@ const Body = () => {
         <div className="main_body">
             <div className="filter">
                 <div className="search">
-                    <input type="text" value={filterText} onChange={(e) => {
+                    <input data-testid="searchInput" type="text" value={filterText} onChange={(e) => {
                         setFilterText(e.target.value);
                     }}/>
                     <button onClick={() => {

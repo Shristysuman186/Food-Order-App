@@ -2,10 +2,11 @@ import { CDN_URL } from "../utils/logo";
 
 const ResturantCard = (props) => {
     const {resData} = props;  /*If we keep like this only then the format will be {resData.info.name} ---> lets destructure this little more  */
+    // console.log(resData);
     const {name, avgRating, sla, cuisines, cloudinaryImageId} = resData?.info; /* optional chaining */
     return(
         <div className="rest-conatiner">
-            <div className="rest-card-style">
+            <div className="rest-card-style" data-testid="resCard">
             <div className="rest-card-image">
                 <img src={CDN_URL + cloudinaryImageId} />
             </div>

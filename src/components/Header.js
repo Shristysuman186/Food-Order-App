@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import logo from "../assets/Bitebox.svg"
+import logo from "../assets/Bitebox.svg";
 
 const Header = () => {
     // const[loginbtn, setloginbtn] = useState("Login");

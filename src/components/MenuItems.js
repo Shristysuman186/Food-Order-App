@@ -12,7 +12,7 @@ const MenuItems = ({menuitems}) => {
         <div className="menu-list">
             {
                 menuitems.map((it) => (
-                    <div key={it.card.info.id} className="menu-cards">
+                    <div data-testid="foodItem" key={it.card.info.id} className="menu-cards">
                         <div className="item">
                         <div className="menu-title">{it?.card?.info?.name}</div>
             <div className="menu-price">₹{it?.card?.info?.price ? it?.card?.info?.price / 100 : it?.card?.info?.defaultPrice/100}</div>
