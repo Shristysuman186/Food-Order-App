@@ -16,7 +16,7 @@ const Header = () => {
             </div>
             <div className="nav-items">
                 <ul>
-                    <li><Link to="/about">About</Link></li>
+                    {/* <li><Link to="/about">About</Link></li> */}
                     <li><Link to="/cart">Cart({cartItem.length})</Link></li>
                     {/* <li>
                         <button onClick={buttonChangeHandler}>{loginbtn}</button>
