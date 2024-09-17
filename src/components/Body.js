@@ -56,7 +56,7 @@ const Body = () => {
                         (res) => res.info.avgRating > 4.5
                         );
                         setFilteredResturants(filteredData) ; 
-                }}>Top Rated Resturants</button>
+                }}>Top Rated Restaurants</button>
                 </div>
             <div className="rest-cards">
             {

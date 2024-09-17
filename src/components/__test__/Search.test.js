@@ -36,7 +36,7 @@ it("should render top rated resturants" , async () => {
     });
     const CardsBeforeFilter= screen.getAllByTestId("resCard");
         expect (CardsBeforeFilter.length).toBe(20);
-        const filterBtn = screen.getByRole("button", {name: "Top Rated Resturants"});
+        const filterBtn = screen.getByRole("button", {name: "Top Rated Restaurants"});
         fireEvent.click(filterBtn);
         const CardsAfterFilter = screen.getAllByTestId("resCard");
         expect(CardsAfterFilter.length).toBe(7);
